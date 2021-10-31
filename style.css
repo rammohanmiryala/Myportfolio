@@ -1,0 +1,276 @@
+/* font-family: 'Capriola', sans-serif;
+font-family: 'Kenia', cursive;
+font-family: 'Marko One', serif; */
+
+:root {
+
+    --brown: #222222;
+    --textcolor: #FFD4D4;
+    --greencolor: #75CCB7;
+
+
+}
+
+.header,
+.bannerleft,
+.bannerright,
+li,
+.text1 {
+    border: px solid var(--textcolor);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+
+
+body,
+input,
+button {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background-color: var(--brown);
+    color: var(--textcolor);
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* backgroundimage */
+.backgroundimage {
+    position: relative;
+
+}
+
+.maincard {
+    position: relative;
+}
+
+.bgimage {
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    position: fixed;
+    visibility: hidden;
+}
+
+
+.logocard,
+.switchcard {
+    display: flex;
+    padding: 10px;
+    margin-top: 40px;
+
+}
+
+.switchcard {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+/* switch */
+input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+label {
+    cursor: pointer;
+    width: 90px;
+    height: 40px;
+    background: #FFD4D4;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+}
+
+label:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    background: #3D3837;
+    border-radius: 90px;
+    transition: 0.3s;
+}
+
+input:checked+label {
+    background: #3D3837;
+}
+
+input:checked+label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+    background: #FFD4D4;
+}
+
+label:active:after {
+    width: 130px;
+}
+
+.bannercard {
+    box-sizing: border-box;
+    justify-content:center;
+
+}
+
+/* banner */
+
+/* bannerright navbar */
+a {
+
+    color: var(--textcolor);
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+
+}
+
+.navbarright {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+.navbar {
+    justify-content: center;
+}
+
+li {
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+
+
+}
+
+/* bannerleft */
+
+
+
+
+.bannercard {
+    margin-top: 10%;
+    
+
+}
+
+.textbanner {
+    width: 100%;
+    margin-left: 0%;
+
+}
+
+.textline1 {
+    position: relative;
+    /* font-family: 'Big Shoulders Text', cursive; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    left: 10px;
+
+}
+
+.textline2 {
+    position: relative;
+    top: -60px;
+
+}
+
+
+.textr {
+
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 160px;
+}
+
+.textam {
+    font-family: 'Roboto', sans-serif;
+    font-size: 110px;
+    font-weight: 800;
+
+}
+
+.textam1 {
+    font-family: 'Overlock', cursive;
+    font-size: 110px;
+}
+
+.textam2 {
+    font-family: 'Overlock', cursive;
+    font-size: 110px;
+    color: #75CCB7;
+}
+
+.textline3 {
+    position: relative;
+    font-size: 25px;
+    top: -100px;
+    left: 60px;
+
+}
+
+.textuiux {
+    font-family: 'Fredoka One', cursive;
+    background: linear-gradient(94.31deg, #715C85 -50.64%, #816CFF 3.17%, #75CCB7 152.07%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.textand {
+    margin-left: 2%;
+}
+
+.textdev {
+
+    font-family: 'Courier Prime', monospace;
+    margin-left: 2%;
+    font-size: regular;
+}
+
+.slidingtext {
+    font-size: 20px;
+    position: relative;
+    top: 0px;
+    text-align: right;
+
+}
+
+.buttondiv {
+    position: relative;
+    top: -60px;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: #2c2c2c;
+    border: 0px solid #FFD4D4;
+    padding: 4%;
+    width: 70%;
+    color: var(--greencolor);
+    border-radius: 10px;
+    /* font-family: 'Zen Kurenaido', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}

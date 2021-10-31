@@ -1,0 +1,41 @@
+.Avatarmyself{
+    width: 100%;
+}
+.Avatarmyselfdiv{
+
+}
+.textline2 {
+    font-family: 'Roboto', sans-serif;
+    top: 8px;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 30px;
+    float: right;
+    color: #FFD4D4;
+    margin-left:10px;
+    width: 70%;
+    text-align: justify;
+}
+.textbanner {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    padding:10px;
+    align-items: center;
+    left: -20px;
+    
+
+}
+.buttondiv {
+    position: relative;
+    top: 0px;
+    
+    
+}
+.btnresume{
+    display: flex;
+    justify-content: right;
+    justify-content: space-around;
+
+}

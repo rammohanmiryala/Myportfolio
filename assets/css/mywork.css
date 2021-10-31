@@ -1,0 +1,41 @@
+.headertag {
+    /* position: fixed;
+    top: 0px; */
+    background-color: #222222;
+}
+
+.Avatarmyselfdiv {
+    /* background-color:antiquewhite; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Avatarmyself {
+    padding: 3px;
+    border: 0px solid #FFD4D4;
+    justify-content: space-around;
+    width: 350px;
+    height: 200px;
+    margin:10px;
+    border-radius:10px;
+    box-shadow: rgba(255, 255, 255, 0.178) 10px 10px 15px 1px;
+
+}
+.bannercard {
+    margin-top: 20%
+}
+
+.navbarright {
+    /* position: fixed;
+    top: 28.5%; */
+
+}
+
+.bannercard {
+    position: relative;
+    margin-top: 10%
+    
+}
+
+
