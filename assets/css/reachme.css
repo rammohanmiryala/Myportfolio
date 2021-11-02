@@ -1,0 +1,22 @@
+.inputbc{
+    background-color: transparent;
+    margin-top:5px;
+    border:1px solid #3f3f3f;
+    
+}
+.inputbc:focus{
+    background-color: transparent;
+    color: #a7a7a7;  
+}
+.inputlable{
+    margin-top:20px;
+}
+form{
+    width:60%;
+
+}
+.formfeild{
+    display:flex;
+    justify-content:center;
+
+}

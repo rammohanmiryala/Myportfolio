@@ -1,41 +1,60 @@
-.Avatarmyself{
+.Avatarmyself {
     width: 100%;
 }
-.Avatarmyselfdiv{
 
-}
+.Avatarmyselfdiv {}
+
 .textline2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     top: 8px;
     align-items: center;
     font-size: 17px;
     font-weight: 100;
     line-height: 30px;
     float: right;
-    color: #FFD4D4;
-    margin-left:10px;
+    color: #ececec;
+    margin-left: 10px;
     width: 70%;
     text-align: justify;
 }
+
 .textbanner {
     position: relative;
     width: 100%;
     justify-content: space-between;
-    padding:10px;
+    padding: 10px;
     align-items: center;
     left: -20px;
-    
+
 
 }
+
 .buttondiv {
     position: relative;
     top: 0px;
-    
-    
+
+
 }
-.btnresume{
+
+.btnresume {
     display: flex;
     justify-content: right;
-    justify-content: space-around;
+  
 
+}
+
+.facebook:hover {
+    color: #4267B2;
+    cursor: pointer;
+
+}
+
+.linkedin:hover {
+    color: #0077b5;
+    cursor: pointer;
+}
+
+.twitter:hover {
+    color: #1DA1F2;
+    cursor: pointer;
 }
