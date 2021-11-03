@@ -1,4 +1,4 @@
-var nightmodeEl = $('.nightmode')
+var nightmodeEl = document.getElementById('.nightmode')
 document.getElementById("switch").addEventListener("change", function () {
     if (document.getElementById("switch").checked == true) {
 
