@@ -89,6 +89,7 @@ input[type=checkbox] {
     visibility: hidden;
 }
 
+
 #switchlable {
     cursor: pointer;
     width: 90px;
@@ -111,9 +112,14 @@ input[type=checkbox] {
     transition: 0.3s;
 }
 
+
+
 input:checked+#switchlable {
     background: #3D3837;
+    
+
 }
+
 
 input:checked+#switchlable:after {
     left: calc(100% - 5px);
