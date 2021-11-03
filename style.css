@@ -140,9 +140,12 @@ input:checked+#switchlable:after {
 /* banner */
 
 /* bannerright navbar */
+.navbarright{
+    color: var(--textcolor);
+}
 a {
 
-    color: var(--textcolor);
+    
     text-decoration: none;
     padding: 10px;
     margin: 10px;
