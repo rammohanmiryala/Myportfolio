@@ -11,14 +11,16 @@ font-family: 'Marko One', serif; */
 
 }
 
-.header,
+/* .header,
 .bannerleft,
 .bannerright,
 li,
-.text1 {
-    border: px solid var(--textcolor);
+.text1,
+.logocard,
+.switchcard {
+    border: 1px solid var(--textcolor);
 
-}
+} */
 
 * {
     margin: 0;
@@ -116,7 +118,7 @@ input[type=checkbox] {
 
 input:checked+#switchlable {
     background: #3D3837;
-    
+
 
 }
 
@@ -294,7 +296,7 @@ li {
     color: var(--textcolor);
     padding: 4%;
     width: 70%;
-   
+
     border-radius: 10px;
     /* font-family: 'Zen Kurenaido', sans-serif; */
     font-family: 'Roboto', sans-serif;
@@ -305,10 +307,123 @@ li {
 
 .button:hover {
     box-shadow: rgba(32, 32, 32, 0.2) 3px 3px 6px 0px inset, rgba(0, 0, 0, 0.5) -3px -3px 6px 1px inset;
-    color:#75CCB7
-
+    color: #75CCB7
 }
 
 .pagestran {
     transition-duration: 8s
 }
+
+
+@media screen and (min-width: 300px) and (max-width: 425px) {
+
+    .bannerleft {
+        order: 1;
+    }
+
+    .bannerright {
+        order: 0;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .switchcard {
+        width: 50%;
+    }
+
+    .logocard {
+        width: 50%;
+        height:65px;
+
+    }
+
+    .pages {
+        padding: 5px;
+
+    }
+
+    .textline1 {
+        padding:0px;
+        font-size: 18px;
+
+    }
+    .textline2{
+        top: -40px;
+        padding:0px;
+
+    }
+   
+    .textline3{
+        
+        justify-content: center;
+        position: relative;
+        font-size: 25px;
+        top: -90px;
+        left: 0px;
+        width: 100%;
+
+
+    }
+    
+
+    .textr {
+        font-size: 90px;
+    }
+
+    .textam {
+        font-size: 45px;
+    }
+    .textam1,.textam2{
+        font-size: 45px; 
+    }
+    .textuiux,.textand,.textdev{
+        font-size: 14px;
+
+    }
+    .button{
+        font-size:15px;
+        top: 0px;
+        left: 0px;
+    }
+    .buttondiv {
+        position: relative;
+        top: -100px;
+        
+    }
+
+    .pages {
+        padding:0px;
+        font-size: 15px;
+    }
+
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 753px) {
+
+    .bannerleft {
+        order: 1;
+    }
+
+    .bannerright {
+        order: 0;
+    }
+    .pages {
+        padding:0px;
+        font-size: 15px;
+    }
+    .switchcard {
+        width: 50%;
+    }
+
+    .logocard {
+        width: 50%;
+        height:65px;
+
+    }
+
+@media screen and (min-width: 768px) and (max-width: 3000px) {}

@@ -1,27 +1,33 @@
-.inputbc{
+.inputbc {
     background-color: transparent;
-    margin-top:5px;
-    border:1px solid #3f3f3f;
-    color:#75CCB7;
-    
-}
-.inputbc:focus{
-    background-color: transparent;
-    color: #FFD4D4;  
-}
-.inputlable{
-    margin-top:20px;
-}
-form{
-    width:60%;
+    margin-top: 5px;
+    border: 1px solid #3f3f3f;
+    color: #75CCB7;
 
 }
-.formfeild{
-    display:flex;
-    justify-content:center;
+
+.inputbc:focus {
+    background-color: transparent;
+    color: #FFD4D4;
+}
+
+.inputlable {
+    margin-top: 20px;
+}
+
+form {
+    width: 60%;
 
 }
-.buttonsubmit{
+
+.formfeild {
+    display: flex;
+    justify-content: center;
+
+}
+
+.buttonsubmit {
     margin-top: 20px;
     padding: 10px;
 }
+

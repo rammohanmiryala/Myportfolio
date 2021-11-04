@@ -39,7 +39,7 @@
 .btnresume {
     display: flex;
     justify-content: right;
-  
+
 
 }
 
@@ -57,4 +57,37 @@
 .twitter:hover {
     color: #1DA1F2;
     cursor: pointer;
+}
+@media screen and (min-width: 300px) and (max-width: 425px) {
+    .Avatarmyself1 {
+        width: 60%;
+        margin:0 auto;
+    }
+    .textline2{
+        
+        width: 100%;
+
+
+    }
+    .textxcolorp{
+        font-size: 10px;
+        margin:0 auto;
+        width:100%;
+
+
+
+    }
+
+}
+@media screen and (min-width: 426px) and (max-width: 753px){
+    .Avatarmyself1 {
+        width: 40%;
+        margin:0 auto;
+    }
+    .textline2{
+        margin:0 auto;
+        width: 100%;
+
+
+    }
 }

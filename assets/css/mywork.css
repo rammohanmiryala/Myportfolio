@@ -43,5 +43,41 @@
     position: relative;
     margin-top: 10%  
 }
+@media screen and (min-width: 300px) and (max-width: 425px) {
+
+    .bannerleft {
+        
+        order: 1;
+    }
+
+    .bannerright {
+        
+        order: 0;
+    }
+    .Avatarmyself{
+        width: 150px;
+        height: 100px;
+        margin:3px;
 
 
+    }
+
+}
+@media screen and (min-width: 426px) and (max-width: 753px) {
+
+    .bannerleft {
+        order: 1;
+    }
+
+    .bannerright {
+        order: 0;
+    }
+    .Avatarmyself{
+        width: 150px;
+        height: 100px;
+        margin:3px;
+
+
+    }
+    
+}
