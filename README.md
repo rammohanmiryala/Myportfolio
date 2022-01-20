@@ -1,4 +1,5 @@
 # My Portfolio
+![License](https://img.shields.io/badge/Licence-MIT-red)
 
 ## About The Project
 
